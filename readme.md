@@ -1,15 +1,15 @@
-# fake-lit
+# fake-lit [![The badge](https://img.shields.io/npm/v/fake-lit?style=for-the-badge)](https://www.npmjs.com/package/fake-lit)
 
-Fakes a `html` tag for template literals from [lit-html](https://github.com/Polymer/lit-html), so editor plugins like [mjbvz/vscode-lit-html](https://github.com/mjbvz/vscode-lit-html) syntax highlight the html inside.
+Fakes a `html` tag for the template literals - like [lit-html](https://github.com/Polymer/lit-html) does - so any editor plugins like [mjbvz/vscode-lit-html](https://github.com/mjbvz/vscode-lit-html) highlight the html inside.
 
 ---
 
 ## Usage
 
 ``` javascript
-// require like this
+// options! like this:
 const html = require('fake-lit')
-// or this
+// or this:
 const {html} = require('fake-lit')
 
 const highlightThis = content => html`
@@ -19,7 +19,7 @@ const highlightThis = content => html`
 `
 ```
 
-`highglightThis` will now be syntax highlighted.
+`highglightThis` will now have highlighted syntax.
 
 The function itself does nothing, merely joins together all the parts.
 
