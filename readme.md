@@ -9,8 +9,6 @@ Fakes a `html` tag for the template literals - like [lit-html](https://github.co
 ``` javascript
 // options! like this:
 const html = require('fake-lit')
-// or this:
-const {html} = require('fake-lit')
 
 const highlightThis = content => html`
     <div class='parent'>

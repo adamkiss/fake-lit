@@ -5,4 +5,3 @@ const html = (strings, ...expressions) => (
 )
 
 module.exports = html
-module.exports.html = html
