@@ -1,6 +1,6 @@
 {
   "name": "fake-lit",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Faking html tags for template literals for the win… and syntax highlighting",
   "main": "index.js",
   "scripts": {
