@@ -1,7 +1,7 @@
 const html = (strings, ...expressions) => (
-    strings
+    strings ? strings
         .reduce((arr, str) => [...arr, str, expressions.shift()], [])
-        .join('')
+        .join('') : ''
 )
 
 module.exports = html
